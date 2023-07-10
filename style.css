@@ -65,8 +65,12 @@ body{
 
   #home h2 a{
     text-decoration: none;
-    background-color: dodgerblue;
+    background-color: rgb(255, 98, 30);
   } 
+
+  #home h2 a:hover{
+    opacity: 0.7;
+  }
 
   .profile{
     height: 500px;
@@ -208,7 +212,11 @@ body{
 
   #resume a{
     text-decoration: none;
-    background-color: dodgerblue;
+    background-color: rgb(255, 98, 30);
+  }
+
+  #resume a:hover{
+    opacity: 0.7;
   }
 
   .resume_cont{
@@ -266,15 +274,11 @@ textarea{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  background: #ccc;
+  background: #535252;
 }
 
 .fa:hover {
   opacity: 0.7;
-}
-
-.fa-facebook {
-  margin-left: 5px;
 }
 
   /* CSS for Footer */
